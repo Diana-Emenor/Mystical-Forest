@@ -1,0 +1,197 @@
+﻿General
+-> Realizar un videojuego de género RPG con elementos de simulador de vida (o viceversa) donde se controla a una persona de género personalizable (Hombre, mujer, no definido (?))
+
+-> Vista aerea, similar a los juegos 2D de The Legend of Zelda, así como los JRPG
+
+Personaje principal
+-> El jugador tendrá la oportunidad de crear un personaje personalizable al 100%, de forma que puede ser hombre pero tener apariencia femenina, así como poder ser de alguna raza en especifico, que más aderante se hablan de estas
+
+-> El mundo donde se desarrolla este videojuego existe magia y se toma como algo normal
+
+-> El personaje principal se muda a un pequeño pueblo, donde viven de todo tipo de criaturas mágicas: brujas, hechiceros, sirenas, ninfas, entre otras razas.
+
+-> Por cada raza es posible que el personaje principal acceda a distintos trabajos, siendo algunas exclusivas de una raza ó un conjunto de razas.
+
+-> El personaje puede entablar relaciones con otros personajes no jugables (NPC) dentro del juego, ya sea amistad, enemistad, romance, etc. (Opcional dentro del juego)
+
+-> En caso de que el jugador tenga al menos 1 hijo, la siguiente iteración se llevara a cabo cuando este heredero tenga la misma edad que el personaje anterior cuando inició la aventura. (se tendrá la opción de elegir con quién controlar)
+
+-> Selección manual de rasgos de personalidad, afecta al dialogo
+
+Negocios
+-> Al inicio del juego, al personaje principal se le asignará un edificio donde la primera parte pueda formar como la base del negocio y la segunda parte como vivienda del personaje.
+
+-> El edificio anteriormente mencionado se puede personalizar con modificaciones al edificio así como la parte de las paredes, piso y muebles.
+
+-> El negocio del personaje es fundamental, siendo la fuente de ingresos principal del personaje. Dependiendo del negocio se envuelve las tareas que el personaje deberá de efectuar para poder seguir aderante su negocio
+-->*Falta explicar más sobre cada negocio de cada raza*
+
+-> Dentro del juego es posible tener un empleado que atienda el negocio mientras que el personaje este fuera de esta, o que prefiera solo gestionar el negocio.
+--> Obviamente, los empleados tienen que tener una paga para que puedan trabajar en el negocio
+---> Existen razas cuyos empleados no requieran una paga, como el Ghoul
+
+Aventuras
+-> El personaje puede tener la oportunidad de salir de aventuras. Osease, dejar el pueblo un tiempo para explorar otros lugares del mundo.
+
+-> Preparaciones:
+---> El personaje necesita comer al menos 2 veces al dia para subsistir
+---> El personaje necesita reponer fuerzas, durmiendo
+---> El personaje necesitará de curar sus heridas durante cierto tiempo
+---> El personaje contará con Estamina, que es la energia que el personaje tiene para efectuar las acciones
+---> El personaje contará con vida, que es el intervalo entre [Gravemente herido] hasta [Perfecta salud]
+
+-> El personaje puede poseer un método de transporte
+---> Compra de criaturas especificas (Dragones, unicornios, etc)
+---> Domesticación manual
+
+-> Al caer inconciente, el personaje habrá perdido una cantidad variable de equipamiento y dinero que cuente en ese momento, además de despertar en el hospital del pueblo
+---> Las probabilidades de perdida de un objeto en especifico se calcula dependiendo del nivel de rareza. Un objeto único es más probable que se pierda a comparación de un objeto raro.
+
+*jefes*
+-> La mayoria de los jefes son opcionales
+
+-> Opciones de actuar:
+--> Enfrentarse al jefe directamente en combate
+--> Darle soporte a quien se enfrente al jefe
+---> Suministrando provisiones
+---> Dandole covertura de otros enemigos
+--> Ayudando a los civiles afectados por los secuaces del jefe
+
+*Combate*
+-> Armas (creacion y/o compraventa)
+-> Habilidades ofensivas y defensivas (incluyendo magia)
+-> objetos de soporte
+
+**Final del juego, x Iteración** (default: x = 3)
+-> Un antiguo mal acecha al pueblo, el cual es un dragon oscuro, que en un punto fue encarcerado por un heroe de antaño. El personaje en turno será parte del destino del pueblo, ya sea indirectamente (ayudando a un heroe por medio de provisiones, por ejemplo) o directamente:
+--> Como parte de una fuerza de trabajo (Task Force) donde un personaje (no necesariamente el principal) será el lider
+--> En solitario, donde el personaje debera de ser el único que logre cumprir el objetivo
+
+-> Este personaje perderá la vida al terminar esta misión.
+--> Dependiendo de la reputación de la familia, habrá varios finales, pero lo invaliable es que, por lo menos a este personaje se le designará su propia estatua
+
+-> En los creditos se muestra la secuencia que se realizó posterior a la misión
+
+Tiempo
+-> El tiempo en este mundo fluye de manera constante. Hay un periodo de rotación planetaria que se dejará en claro su duración por medio de un calendario, y este dicta fechas importamtes.
+
+-> Mientras pasa el tiempo, el personaje ganará experiencia y habilidades en su rama.
+
+-> El tiempo no se modifica con cada iteración.
+
+NPC 
+-> (probablemente) Los NPC serán generados aleatoriamente, de forma que, al iniciar una nueva partida, los NPC no sean los mismos que la antigua partida.
+
+-> Las relaciones amorosas van por faces: (Opcional dentro del juego)
+--> Conocidos (desde que se interactua por primera vez con estos)
+--> Amigos
+--> Mejores amigos
+--> Novios
+--> Esposo/a
+
+-> Por ciclo, un personaje solo podrá tener como maximo 2 hijos, ya sea con alguna pareja o en solitario. (Opcional dentro del juego)
+
+-> Los NPCs no serán eternos. Tendran su propia vida (controlada por "el destino") es posible que se muden, que mueran o que formen su propia familia.
+
+-> **No definido** Forma de expresar emociones, si por iconos como el corazon, caritas, etc o por dialogos.
+
+-> Eventos al llegar a un cierto grado de relación
+
+-> Sprite base donde se colocará los elementos aleatorios
+
+-> Selección aleatoria de rasgos de personalidad sin contradicciones, afecta al dialogo
+
+Razas
+-> Confirmadas:
+--> Brujas
+----> Fortaleza: Mejores atributos mágicos
+----> Debilidad: Baja vida
+----> Especialidad: venta de objetos mágicos y/o malditos (pociones, hechizos, maldiciones entre otros objetos). Creacion de Ghouls
+----> Ubicación especial: Torre del hechizero abandonado
+----> Ataque especial: Peste negra (Ejercito maldito que absorbe vida y mana de los enemigos cercanos para transferirlos a la bruja)
+
+--> Sirenas
+----> Fortaleza: Salud alta, habilidad de curación
+----> Debilidad: Necesitan mantenerse hidratado
+----> Especialidad: Shows de canto y baile**, regeneración de salud en caso de estar muy herido
+----> Ubicación especial: fondos de los rios y lagos*
+----> Ataque especial: Canto del mar (algo similar a Battle Meditation. https://starwars.wikia.com/wiki/Battle_Meditation )
+
+--> Orcos
+----> Fortaleza: Gran resistencia (Tanques), habilidad de creación de armas
+----> Debilidad: Poca mobilidad, Atributos mágicos nulos
+----> Especialidad: optimización de creación de armas. Modo Berserker
+----> Ubicación especial: Cuevas volcánicas*
+----> Ataque especial: Mazo de la perdicion (Ataque elemental (Sónico) masívo, con área)
+
+--> Ninfas
+--> Ghoul
+--> Triton
+
+--> Vampiros
+----> Fortaleza: Salud y atributos más altos durante la noche (posiblemente depende del nivel del personaje)
+----> Debilidad: Salud y atributos bajan 50% durante el dia soleado. En dias nublados o lluvias solo bajan un 25%
+----> Especialidad: Invocación (familiares), Invocación (bestias más potentes que las normales), Transformación a murcielago (mayor velocidad)
+----> Ubicación especial: Castillos escondidos*
+----> Ataque especial: Oleada de murciélagos (Ataque no elemental masívo)
+
+--> Nigromante
+;----> Fortaleza: Gran Usario de Magia Oscura , aumenta sus atributos un 25% durante la noche , puede portar armas oscuras , su estamina se regenera mas rapido 
+son inmunes alos ataque sirenas y Hadas 
+;----> Debilidad:  Salud y atrbutosbajan 75% durante el dia , durante dias nublados/lluviosos solo bajan 40%
+;----> Especialidad : Invocacion(ejercito de  campeones esqueletos oscuros que infligen un 300% mas de daño durante la noche , durante el dia su daño es nullo ),Puede tener una mascota oscura (Sabueso Maldito)  o (Cegador de Almas) ambos solo te recueperan un poco de vida durante el combate
+;----> Ubicacion especial : te lo dejo atu criterio
+;----> Ataque especial : Almas Perdidas (ataque especial que reduce la mitad de la vida del contricante y ademas de que invoca un ejercito de campeones esqueletos oscuros , pero el usuario pierde 75% de su vida(aun que el usuario si asi lo desea puede sacrificar el ejercito de campeones y se regenera 50% de la vida actual ))
+
+
+--> Licántropos
+----> Fortaleza: Aumento natural en fuerza
+----> Debilidad: Baja habilidad en magia
+----> Especialidad: Domadores de bestias. Invocación (otros Licántropos)
+----> Ubicación especial: Cuevas subterraneas*
+----> Ataque especial: Sujetarse al enemigo y atacarlo bestialmente (Ataque físico)
+
+--> Hadas
+----> Fortaleza: Altos atributos mágicos, facilidad de aprendizaje (magia)
+----> Debilidad: Bajos atributos de fuerza
+----> Especialidad: Herbolagia (crecimiento acelerado), Vuelo (bastante velocidad)
+----> Ubicación especial: Bosques (sectores exclusivos)*
+----> Ataque especial: Raices ancestrales (inmobiliza al enemigo, baja su defensa al 50%, daño elemental ya mejorado)
+
+-> Monturas
+--> Dragones
+--> Unicornios
+--> Quimeras
+;--> Grifo 
+
+-> Algunas razas tendrán ubicaciones unicas que podrán visitar.
+* Tesoros exclusivos únicos
+**Mini juego
+
+Pueblo
+-> Al inicio habra algunas casas de algunos NPC, (posiblemente) con locales
+
+-> Habrá un ayuntamiento donde se podra hacer los transmites de boda, divorcio y registro de hijos.
+
+-> Tiendas
+--> Comestibles
+--> Ropa
+--> Monturas y herramientas para el transporte
+--> Herbología
+--> Dependiendo del trato entre el dueño y el personaje, se puede dar el caso de una modificación de los precios.
+
+-> Hospital
+--> El jugador despertará aquí en caso de infección por herida mal curada
+--> Compra de drogas y medicamentos (pociones, hierbas)
+--> Es posible cortegear con la enfermera, o enfermero, o doc
+
+-> habrá cosas que se deterioran con el paso del tiempo, y se pueden reparar (no obligatorio) con el material necesario
+
+-> Por la mañana se reparte diariamente el periodico, que puede poner al tanto del clima, peticiones de los NPCs e incluso eventos especiales, como bodas, funerales, nacimientos, etc)
+
+Minijuegos
+-> Dentro del juego habrá muchos minijuegos para muchas acciones, como preparar pociones, crecer plantas, entrenamiento con armas, etc.
+
+IS
+-> Generar las funciones adecuadas para poder controlar las personalidades de cada uno de los NPC, de forma que sea posible realizar la vida de estos sin 
+realmente escribir un guion por cada uno de estos personajes, y hacerlos aleatorios por un generador de números aleatorios
